@@ -1,12 +1,37 @@
-# unpacked plugin folders
-plugins/**/*
+# Editor files
+.project
+.vscode
+/.settings
+/.classpath
+settings.json
+
+# Server files
+CFIDE
+cfide
+WEB-INF
+
+# DBMigrate plugin: generated SQL
+db/sql
+migrator/sql 
 
 # files directory where uploads go
 files
 
-# DBMigrate plugin: generated SQL
-db/sql
+# unpacked plugin folders
+plugins/**/*
+/plugins/**/
 
 # AssetBundler plugin: generated bundles
 javascripts/bundles
 stylesheets/bundles
+
+# Framework zip File
+cfwheels.*.zip
+
+# Other directories
+/target
+/temp/
+/bluedragon/
+/manual/
+/subfolder/
+/bin/
