@@ -25,8 +25,10 @@ plugins/**/*
 javascripts/bundles
 stylesheets/bundles
 
-# Framework zip File
+# Framework Files
 cfwheels.*.zip
+/wheels/**
+
 
 # Other directories
 /target
